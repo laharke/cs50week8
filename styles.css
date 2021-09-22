@@ -1,0 +1,106 @@
+body {
+    background-color: #212529;
+    color: azure;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.myBackground {
+    background: #212529 url(img/mr_blue___bojack_horseman_and_diane_by_naotoshirogane721_dds6kpu-fullview.jpg);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.accordion {
+    color: rgb(54, 20, 20);
+}
+.accordion-body {
+    font-size: small;
+    color: white;
+}
+
+.accordion-item {
+    background-color: rgb(66, 22, 22);
+}
+.accordion-button {
+    background-color: rgb(119, 49, 49);
+}
+.accordion-collapse{
+    background-color: rgb(119, 49, 49);
+}
+.collapsed{
+    background-color: rgb(70, 27, 27);
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(3, 7, 14, 0.493);
+}
+
+.aboutMeContainer{
+    margin-top: 20px;
+}
+
+.myBackgroundGames {
+    background: #212529 url(img/gamer.jpg);
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: rgb(221, 73, 155);
+    text-shadow: 0 0 3px #2f0dee, 0 0 5px #0707e4;
+ 
+}
+
+#gamerPara {
+    padding-left: 267px;
+    font-weight: bold;
+}
+
+.cardsContainer {
+    color: black;
+    margin-top: 20px;
+}
+
+.card{
+    margin: 20px;
+    border: solid 2px rgb(255, 241, 241);
+}
+.petIMG{
+    height: 650px;
+}
+
+.carousel{
+    border: solid 2px rgb(216, 207, 207);
+}
+
+#mishLink{
+    color: white;
+}
+
+#mishLink:visited{
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.gitLink{
+    color: teal;
+    text-decoration: none;
+}
+.gitLink:visited {
+    color: teal;
+}
+
+#characterDiv{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
